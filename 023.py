@@ -1,0 +1,5 @@
+str = input("Please enter firs line of nursery rhyme\n")
+print("there is", len(str), "letters in your rhyme")
+num1 = int(input("Enter the enter start number of digit: "))
+num2 = int(input("Enter the last end number of digit: "))
+print((str[num1:num2]))
