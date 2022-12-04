@@ -10,7 +10,7 @@ food_list[4] = food4
 food5 = input("Enter another dish you like: ")
 food_list[5] = food5
 print(food_list)
-remove_food = int(input("Enter the number food you would like to remove from list: "))
+remove_food = int(input("Enter the number of food you would like to remove from list: "))
 del food_list[remove_food]
 print(food_list.values())
 #this exercise is a holly crap! Output is just...
