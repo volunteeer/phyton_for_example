@@ -6,5 +6,5 @@ for i in range(0,4):
     list[name] = {"Age":age, "Shoe size":shoe_size}
 print(list)
 user_input = input("Enter a name: ")
-print(list [name])
-#Have no idea why it's not working. Line 7 will show correst array but line 9 print only last record
+print(list [user_input])
+#Have no idea why it's not working. Line 7 will show correct array but line 9 print only last record
